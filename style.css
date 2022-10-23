@@ -1,0 +1,44 @@
+body{
+    background: no-repeat top/100% url(./resourses/bg.jpg);
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-container h1{
+    align-self: center;
+    color: bisque;
+}
+
+.flex-container img{
+    align-self: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+    margin-right: 10px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: bisque;
+}
+
+a p {
+    font-weight: bold;
+    display: block;
+    align-self: center;
+    justify-self: center;
+}
+
+.steps{
+    margin: 0;
+}

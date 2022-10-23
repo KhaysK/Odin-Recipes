@@ -1,0 +1,33 @@
+body{
+    background: no-repeat top/100% url(../resourses/bg_recipes.jpg);
+}
+
+li {
+    margin-top: 10px;
+}
+
+.flex-container, .container{
+    display: flex;
+}
+.container{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.description{
+    width: 600px;
+}
+
+.ingredients{
+    width: 250px;
+    margin: -30px 0 0 10px;
+}
+
+.steps{
+    width: 500px;
+    margin-top: -30px;
+}
+
+a{
+    margin-top: 50px;
+}
